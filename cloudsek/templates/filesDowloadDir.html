@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+   <table class="table table-bordered">
+    <thead>
+      <tr class="Default" align="right">
+        <th >ID</th>
+        <th >Downlod_Url</th>
+             <th >Downloaded_Path</th>
+             <th >Content_Type</th>
+             <th>Content-Length</th>
+             <th>Download_File</th>
+
+        
+      </tr>
+    </thead>
+    <tbody>
+
+{% for key, value in files.items(): %}
+      <tr class="success">
+
+        <td>{{key}}</td>
+        <td>{{value["Download_Url"]}}</td>
+        <td>{{value["File-Path"]}}</td>
+        <td>{{value["Content-type"]}}</td>
+        <td>{{value["Content-Length"]}}</td>
+        
+        <td><a href="/file?id={{ key }}">Download</a></td>
+        
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

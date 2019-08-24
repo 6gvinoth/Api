@@ -1,0 +1,962 @@
+.btn-primary,
+.btn-primary:hover {
+    border: 0
+}
+
+/*@font-face {
+    font-family: ProximaNovaBlack;
+    src: url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.eot);
+    src: url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.eot?#iefix) format("embedded-opentype"), url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.woff2) format("woff2"), url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.woff) format("woff"), url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.ttf) format("truetype"), url(/fonts/proxima-nova/MarkSimonson-ProximaNovaAltBlack-webfont.svg#proxima_nova_altblack) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Prompt', sans-serif;
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.eot");
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.woff2") format("woff2"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.woff") format("woff"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.ttf") format("truetype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Bold-webfont.svg#proxima_nova_altbold") format("svg");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Prompt;
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.eot");
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2") format("woff2"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf") format("truetype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaThin2;
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.eot");
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.woff2") format("woff2"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.woff") format("woff"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.ttf") format("truetype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova ScOsf Thin-webfont.svg#proxima_nova_scosfthin") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaSemibold;
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.eot");
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.woff2") format("woff2"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.woff") format("woff"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.ttf") format("truetype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaThin;
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.eot");
+    src: url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.woff2") format("woff2"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.ttf") format("truetype"), url("/fonts/proxima-nova/Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin") format("svg");
+    font-weight: 400;
+    font-style: normal
+}*/
+
+::-webkit-input-placeholder {
+    font-family: Prompt, sans-serif;
+    font-size: 18px
+}
+
+:-ms-input-placeholder {
+    font-family: Prompt, sans-serif;
+    font-size: 18px
+}
+
+:-moz-placeholder {
+    font-family: Prompt, sans-serif;
+    font-size: 18px
+}
+
+::-moz-placeholder {
+    font-family: Prompt, sans-serif;
+    font-size: 18px
+}
+
+body {
+    font-family: Prompt, sans-serif;
+    color: #364655;
+    background: url(/static/scripts/bg.svg);
+    background-size: cover
+}
+
+.bg-blue,
+.btn-primary {
+    background: #284594
+}
+
+.section--medium--title,
+.section--title {
+    font-family: ProximaNovaBold, sans-serif;
+    font-size: 40px;
+    text-align: center
+}
+
+.section--medium--title {
+    font-size: 30px
+}
+
+.section--subtitle {
+    font-family: Prompt, sans-serif;
+    font-size: 25px;
+    text-align: center
+}
+
+@media (max-width:991px) {
+    .section--subtitle {
+        font-size: 20px !important
+    }
+}
+
+.w50 {
+    width: 50%
+}
+
+.w75 {
+    width: 75%
+}
+
+.w80 {
+    width: 80%
+}
+
+.text-regular {
+    font-family: Prompt, sans-serif !important
+}
+
+.faq--item--title,
+.form--label,
+.login--title,
+.recommended--option,
+.samples--list--item.selected,
+.samples--list--item:hover,
+.text-bold,
+strong {
+    font-family: Prompt, sans-serif !important
+}
+
+.c-white {
+    color: #fff
+}
+
+.c-gray,
+.footer--link {
+    color: #9C9B9B
+}
+
+.c-blue {
+    color: #284594
+}
+
+.card--amount--green {
+    color: #2ECC71
+}
+
+.card--amount--blue {
+    color: #3498DB
+}
+
+.card--amount--orange {
+    color: #E67E22
+}
+
+.card--amount--red {
+    color: #D35400
+}
+
+.question--color a {
+    color: #457BA0
+}
+
+.bg-white {
+    background: #fff
+}
+
+.c-table-blue {
+    color: #2e64c3
+}
+
+.c-table-red {
+    color: #d9534f
+}
+
+.bg-light-blue {
+    background: rgba(215, 236, 242, .56)
+}
+
+.learn--more--link,
+.learn--more--link:hover {
+    color: #364655;
+    text-decoration: underline
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: #284594
+}
+
+.highlighted {
+    background: 0 0
+}
+
+.owl-carousel .item,
+.pos-relative {
+    position: relative
+}
+
+.br-20 {
+    border-radius: 20px
+}
+
+.br-50 {
+    border-radius: 50%
+}
+
+.br-bottom-20 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.scale:hover {
+    transform: scale(1.1);
+    transition: all .5s
+}
+
+.bt-0 {
+    border-top-color: transparent !important
+}
+
+.bl-0 {
+    border-left-color: transparent !important
+}
+
+.full-height {
+    height: 100vh
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.form--label {
+    color: #364655;
+    font-size: 18px
+}
+
+.form--input {
+    line-height: 2
+}
+
+.benefits--title {
+    font-size: 22px;
+    font-family: ProximaNovaBold, sans-serif
+}
+
+.ccv--hint,
+.contact--option--title {
+    font-family: Prompt, sans-serif
+}
+
+.benefits--description {
+    font-size: 18px
+}
+
+.carousel--item--title {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #284594;
+    color: #fff;
+    width: 100%;
+    opacity: 0;
+    transition: all .5s
+}
+
+.owl-carousel .item:hover .carousel--item--title {
+    opacity: 1
+}
+
+.owl-next,
+.owl-prev {
+    position: absolute;
+    right: 10px;
+    font-size: 60px !important;
+    top: 45px
+}
+
+.owl-prev {
+    left: 10px
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: 0 0 !important;
+    color: rgba(136, 136, 136, .5)
+}
+
+.carousel--quote--commpany--link,
+.carousel--quote--commpany--link:hover,
+.customer--quotes--quote {
+    color: #fff
+}
+
+.customer--active img {
+    transform: scale(1.5);
+    transition: transform .25s ease
+}
+
+.customer--quotes--img {
+    width: 100px
+}
+
+.customer--quotes--avatars {
+    margin-top: -95px;
+    margin-bottom: 40px
+}
+
+@media (max-width:991px) {
+
+    .owl-next,
+    .owl-prev {
+        top: 65px
+    }
+
+    .customer--active img {
+        transform: scale(2);
+        transition: transform .25s ease
+    }
+
+    .customer--quotes--avatars {
+        margin-top: -65px
+    }
+}
+
+.customer--quotes--container {
+    background: url(/img/landing/carousel-bg.svg) center no-repeat #284594;
+    background-size: contain;
+    margin-top: 80px;
+    padding: 20px 0 60px
+}
+
+.customer--quotes--info--container {
+    min-height: 247px
+}
+
+.carousel-item.active {
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.customer--quotes--email,
+.customer--quotes--quote--author,
+.customer--quotes--quote--message {
+    width: 50%;
+    margin: 0 auto
+}
+
+@media (max-width:991px) {
+    .customer--quotes--info--container {
+        min-height: 539px !important
+    }
+
+    .customer--quotes--email,
+    .customer--quotes--quote--author,
+    .customer--quotes--quote--message {
+        width: 80%;
+        margin: 0 auto
+    }
+}
+
+.customer--quotes--quote--author,
+.customer--quotes--quote--message {
+    font-size: 25px;
+    text-align: center
+}
+
+.customer--quotes--quote--author {
+    font-size: 15px;
+    margin-top: 15px
+}
+
+.customer--quotes--email--button,
+.customer--quotes--email--input {
+    font-size: 18px
+}
+
+.customer--quotes--small {
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 5px
+}
+
+.checkout--card--img {
+    width: 60px
+}
+
+.checkout--card--btn--icon {
+    height: 17px;
+    position: relative;
+    top: -3px;
+    left: -5px
+}
+
+.contact--option {
+    background: #fff;
+    box-shadow: 0 1px 21px 1px #dadada;
+    padding: 30px 0
+}
+
+.contact--option--title {
+    margin-top: 15px;
+    display: block;
+    font-size: 25px;
+    color: #284594
+}
+
+.contact--option--title:hover {
+    text-decoration: none
+}
+
+.contact--option--image {
+    height: 80px
+}
+
+.contact--option--link,
+.contact--option--link:hover {
+    color: #364655;
+    text-decoration: none
+}
+
+.customer--quote--learn--more,
+.customer--quote--learn--more:hover {
+    color: #284594;
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+.customer--quote--name {
+    color: #284594
+}
+
+.customer--quote--avatar {
+    width: 100px;
+    border-radius: 50%
+}
+
+.email--choice--bg {
+    background: url(/img/dashboard/email-step-bg.svg) center no-repeat;
+    background-size: cover
+}
+
+.start--content {
+    font-size: 20px
+}
+
+.payment--methods--bg {
+    background: #F8F9FA;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+
+@media (max-width:991px) {
+    .customer--quote--avatar {
+        width: 70px
+    }
+
+    .payment--methods--bg {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px
+    }
+}
+
+.payment--methods--avatar {
+    width: 100px;
+    border-radius: 50%
+}
+
+.ccv--hint {
+    font-size: 15px;
+    color: #b0afaf
+}
+
+.footer,
+.footer--info--links {
+    font-family: ProximaNovaThin, sans-serif
+}
+
+.text--muted {
+    color: rgba(108, 117, 125, .73)
+}
+
+.payment--methods--form {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+@media (max-width:991px) {
+    .payment--methods--form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px
+    }
+}
+
+.onboarding--box {
+    background: #fff;
+    border: 1px solid #ececec;
+    padding: 30px 0;
+    font-size: 18px
+}
+
+.department--capabilities {
+    list-style-type: none
+}
+
+.department--capabilities--item {
+    font-size: 18px;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 15px
+}
+
+.department--capabilities--item::before {
+    content: '';
+    background: url(/img/landing/list-icon.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -5px;
+    top: 6px
+}
+
+.design--stories--container {
+    position: relative
+}
+
+.design--stories--caption {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #284594;
+    color: #fff;
+    width: 100%;
+    opacity: 0;
+    transition: all .5s
+}
+
+.design--stories--container:hover .design--stories--caption {
+    opacity: 1
+}
+
+.faq--item {
+    background: #D7ECF2;
+    background-size: cover;
+    margin: 20px 0;
+    padding: 20px;
+    opacity: .7;
+    border-radius: 25px
+}
+
+.faq--item--description ul,
+.footer--info--links {
+    padding-left: 0;
+    list-style-type: none
+}
+
+.faq--item--title {
+    cursor: pointer
+}
+
+.faq--item--description,
+.faq--item--title {
+    font-size: 20px;
+    color: #374655
+}
+
+.faq--image {
+    width: 50%;
+    margin-bottom: 30px
+}
+
+@media (max-width:991px) {
+    .faq--image {
+        width: 90%;
+        margin-bottom: 15px
+    }
+}
+
+.faq--link {
+    text-decoration: underline
+}
+
+.hero--button:hover,
+.testimonials--url {
+    text-decoration: none
+}
+
+.footer {
+    background: #fff;
+    font-size: 18px
+}
+
+.footer--logo {
+    width: 180px
+}
+
+.hero--title {
+    font-size: 40px
+}
+
+.hero--description,
+.hero--video--link {
+    font-size: 20px
+}
+
+.hero--video--link {
+    color: #284594 !important;
+    font-size: 25px;
+    display: block !important;
+    cursor: pointer
+}
+
+.hero--video--icon {
+    height: 20px
+}
+
+.hero--button,
+.hero--input {
+    font-size: 18px
+}
+
+.hero--input {
+    color: #9C9B9B
+}
+
+.hero--main--image {
+    height: 350px
+}
+
+.hero--small {
+    color: #364655;
+    text-align: left;
+    padding-top: 15px
+}
+
+.how--it--works--steps {
+    font-size: 108px;
+    color: rgba(87, 87, 86, .1);
+    font-weight: 800
+}
+
+.steps--hack {
+    position: relative;
+    top: -17px
+}
+
+.how--it--works--description {
+    font-size: 20px
+}
+
+.how--it--works--image {
+    width: 80%;
+    margin: 0 auto
+}
+
+@media (max-width:991px) {
+    .how--it--works--image {
+        width: 50%
+    }
+}
+
+.login--header--logo {
+    width: 150px
+}
+
+@media (max-width:991px) {
+    .login--header--logo {
+        width: 100px
+    }
+}
+
+.login--benefits--list {
+    list-style-type: none;
+    padding-left: 21px
+}
+
+.login--benefits--list--item {
+    position: relative;
+    font-size: 22px;
+    margin: 10px 0
+}
+
+.have-account h3,
+.navbar--button,
+.navbar--container {
+    font-size: 16px
+}
+
+.login--benefits--list--item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url(/img/landing/check-green.svg) no-repeat;
+    position: absolute;
+    left: -25px;
+    top: 10px
+}
+
+.method--email--img {
+    height: 130px
+}
+
+@media (max-width:991px) {
+    .method--email--img {
+        height: 100px
+    }
+}
+
+.method--trello--img {
+    height: 80px
+}
+
+@media (max-width:991px) {
+    .method--trello--img {
+        height: 50px
+    }
+}
+
+.method--trello--option {
+    background: url(/img/dashboard/trello-bg.svg) center no-repeat;
+    background-size: contain
+}
+
+.method--email--option {
+    background: url(/img/dashboard/email-bg.svg) center no-repeat;
+    background-size: contain
+}
+
+.recommended--option {
+    position: absolute;
+    bottom: -23px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center
+}
+
+.method--email--img--container {
+    height: 140px
+}
+
+@media (max-width:991px) {
+    .method--email--img--container {
+        height: 120px
+    }
+}
+
+.method--trello--img--container {
+    height: 140px
+}
+
+@media (max-width:991px) {
+    .method--trello--img--container {
+        height: 100px
+    }
+
+    .navbar {
+        background: #fff
+    }
+}
+
+.navbar {
+    transition: all .5s
+}
+
+.header--logo,
+.header--logo--w {
+    height: 50px
+}
+
+.navbar--item {
+    color: #9C9B9B
+}
+
+.header--logo--w {
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px
+}
+
+.show--on--nav--scrolling {
+    display: none
+}
+
+.hide--on--nav--scrolling {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sticky--navbar {
+    background: #fff
+}
+
+@media (min-width:992px) {
+    .sticky--navbar .hide--on--nav--scrolling {
+        display: none
+    }
+
+    .sticky--navbar .show--on--nav--scrolling {
+        display: block !important
+    }
+}
+
+.our--guaranteed--container {
+    background: rgba(215, 236, 242, .56);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 0
+}
+
+@media (max-width:991px) {
+    .our--guaranteed--container {
+        background: rgba(215, 236, 242, .56);
+        padding: 20px;
+        margin: 20px 0
+    }
+}
+
+.our--guaranteed--title small {
+    font-size: 14px;
+    font-family: Prompt, sans-serif
+}
+
+.pricing--customer--info {
+    background: #f8f8f1;
+    border-radius: 25px
+}
+
+.pricing--customer--title {
+    font-size: 28px;
+    text-align: left
+}
+
+@media (max-width:991px) {
+    .pricing--customer--info {
+        background: #f8f8f1;
+        border-radius: 20px
+    }
+
+    .pricing--customer--title {
+        text-align: center
+    }
+}
+
+.pricing--product--info {
+    background: rgba(215, 236, 242, .56);
+    border-radius: 20px
+}
+
+.pricing--product--benefits {
+    font-size: 22px
+}
+
+.pricing--quote--img {
+    width: 70px
+}
+
+.samples--list {
+    text-align: left;
+    padding-left: 0;
+    list-style-type: none
+}
+
+.samples--list--item {
+    padding-bottom: 5px;
+    cursor: pointer
+}
+
+.sample--list--container {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.sample--carousel--container {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+@media (max-width:991px) {
+    .samples--list--item {
+        padding-bottom: 5px;
+        cursor: pointer;
+        display: inline-block;
+        width: 49%
+    }
+
+    .sample--list--container {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0
+    }
+
+    .sample--carousel--container {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0
+    }
+}
+
+.terms--container {
+    box-shadow: 0 1px 21px 1px #dadada;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px
+}
+
+@media (max-width:991px) {
+    .terms--container {
+        padding: 30px
+    }
+}
+
+.testimonials--avatar {
+    width: 150px;
+    border-radius: 50%
+}
+
+.testimonials--container {
+    font-size: 18px
+}
+
+.testimonials--container .section--medium--title,
+.testimonials--container .section--title {
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.testimonials--company {
+    background: rgba(215, 236, 242, .56);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center
+}
+
+.other--testimonials--avatar {
+    width: 150px;
+    border-radius: 50%
+}
+
+.other--testimonials--description {
+    margin-top: 20px;
+    font-size: 14px
+}
+
+.testimonials--description {
+    font-size: 16px
+}
+
+.testimonials--url {
+    color: #000
+}
+
+.testimonials--url:hover {
+    color: #000;
+    text-decoration: underline
+}
