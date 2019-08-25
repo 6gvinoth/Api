@@ -26,7 +26,7 @@ def home():
         title='Home Page',uid=uid
     )
 
-@app.route('/download',methods=["GET"])
+@app.route('/download',methods=["POST"])
 def download():
     
     url = request.values["url"]
