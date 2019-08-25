@@ -18,7 +18,7 @@ $(document).ready(function(){
       
   $("#b1").click(function(){
     
-    $.ajax({type:'GET',url: "/download",async: false,data:{"url": $("#search").val() }, success: function(result){
+    $.ajax({type:'POST',url: "/download",async: false,data:{"url": $("#search").val() }, success: function(result){
       v= result["id"];
       $("#div1").html("<h3 style='color:white';>"+"<b>Download_ID</b> : "+v+"</h3>");
       
